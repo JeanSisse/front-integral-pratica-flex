@@ -1,0 +1,163 @@
+/*coringa*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*elementos html*/
+
+span {
+	font-weight: 500;
+	font-size: 16px;
+
+	text-align: center;
+	color: #212D59;
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*classes*/
+
+.container {
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	background: #FFFAF2;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.feedback-support {
+	width: 520px;
+	background: #FFFFFF;
+
+	display: flex;
+	flex-direction: column;
+
+	box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+	border-radius: 15px;
+	margin-right: 60px;
+}
+
+.botao-fechar{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.msg {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	
+	margin-top: 11px;
+	margin-right: 97px;
+	margin-left: 97px;
+	margin-bottom: 72px;
+
+	color: #212D59;
+}
+
+.emoji-estado {
+	display: flex;
+	margin-right: 97px;
+	margin-left: 97px;
+}
+
+.emoji-estado img{
+	margin-bottom: 15px;
+}
+
+.emoji-triste {
+	text-align: center;
+}
+
+.emoji-triste, .emoji-neutro, .emoji-feliz{
+	text-align: center;
+}
+
+.emoji-neutro {
+	flex-grow: 1;
+}
+
+.emoji-feliz {
+	flex-grow: 1;
+}
+
+.btn {
+	background: #2F2D2C;
+	border-radius: 5px;
+}
+
+.btn-close {
+	width: 200px;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+
+	padding: 16px 82px;
+	margin-top: 85px;
+	margin-bottom: 55px;
+	align-self: center;
+	box-sizing: border-box;
+}
+
+.agradecimento {
+	width: 402px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.coracao {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.coracao img{
+	margin-bottom: 15px;
+}
+
+.agradecimento-msg {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #212D59;
+
+	margin-right: 64px;
+	margin-left: 64px;
+	margin-bottom: 40px;
+}
+
+.comentario {
+	margin-bottom: 35px;
+	margin-right: 45px;
+	margin-left: 45px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comentario span{
+	margin-right: 34px;
+}
+
+.btn-done {
+	width: 45px;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+
+	padding: 17px 44px;
+}
