@@ -1,0 +1,83 @@
+coringa*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Elementos html*/
+body {
+	min-height: 100vh;
+	background: #F2F2F2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #F2F2F2;
+
+	margin-top:  35px;
+	margin-bottom: 25px;
+}
+
+p {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	color: #FFFFFF;
+	opacity: 0.75;
+
+	margin-bottom: 83px;
+	/*margin-right: 48px;*/
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+/*classes*/
+.container {
+	background: #E28625;
+	width: 920px;
+	border-radius: 8px;
+
+	display: flex;
+	justify-content: center;
+
+	/*padding: 48px;*/
+}
+
+.card {
+	padding: 48px;
+	flex-basis: 307px;
+}
+
+.btn a{
+	color: #E28625;
+	font-weight: normal;
+	font-size: 15px;
+	padding: 12px 32px;
+
+	background: #F2F2F2;
+	border-radius: 25px;
+}
+
+.card-sedans {
+	background: #E28625;
+	border-radius: 8px;
+}
+
+.card-suvs {
+	background: #006971;
+	border-radius: 8px;
+}
+
+.card-luxury {
+	background: #004140;
+	border-radius: 8px;
+}
